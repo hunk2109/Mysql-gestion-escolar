@@ -32,13 +32,17 @@
             this.estudiantesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.verEstudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.materiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.estudiantesToolStripMenuItem});
+            this.estudiantesToolStripMenuItem,
+            this.materiasToolStripMenuItem,
+            this.cursosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(941, 24);
@@ -68,6 +72,18 @@
             this.verEstudianteToolStripMenuItem.Text = "Ver Estudiante";
             this.verEstudianteToolStripMenuItem.Click += new System.EventHandler(this.verEstudianteToolStripMenuItem_Click);
             // 
+            // materiasToolStripMenuItem
+            // 
+            this.materiasToolStripMenuItem.Name = "materiasToolStripMenuItem";
+            this.materiasToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
+            this.materiasToolStripMenuItem.Text = "Materias";
+            // 
+            // cursosToolStripMenuItem
+            // 
+            this.cursosToolStripMenuItem.Name = "cursosToolStripMenuItem";
+            this.cursosToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
+            this.cursosToolStripMenuItem.Text = "Cursos";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -90,6 +106,8 @@
         private System.Windows.Forms.ToolStripMenuItem estudiantesToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem agregarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem verEstudianteToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem materiasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cursosToolStripMenuItem;
     }
 }
 
