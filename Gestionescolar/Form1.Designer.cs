@@ -34,6 +34,9 @@
             this.verEstudianteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.materiasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarCursosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.verMateriasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,15 +77,40 @@
             // 
             // materiasToolStripMenuItem
             // 
+            this.materiasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarMateriasToolStripMenuItem,
+            this.verMateriasToolStripMenuItem});
             this.materiasToolStripMenuItem.Name = "materiasToolStripMenuItem";
             this.materiasToolStripMenuItem.Size = new System.Drawing.Size(64, 20);
             this.materiasToolStripMenuItem.Text = "Materias";
             // 
             // cursosToolStripMenuItem
             // 
+            this.cursosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarCursosToolStripMenuItem});
             this.cursosToolStripMenuItem.Name = "cursosToolStripMenuItem";
             this.cursosToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.cursosToolStripMenuItem.Text = "Cursos";
+            // 
+            // agregarMateriasToolStripMenuItem
+            // 
+            this.agregarMateriasToolStripMenuItem.Name = "agregarMateriasToolStripMenuItem";
+            this.agregarMateriasToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.agregarMateriasToolStripMenuItem.Text = "Agregar Materias";
+            this.agregarMateriasToolStripMenuItem.Click += new System.EventHandler(this.agregarMateriasToolStripMenuItem_Click);
+            // 
+            // agregarCursosToolStripMenuItem
+            // 
+            this.agregarCursosToolStripMenuItem.Name = "agregarCursosToolStripMenuItem";
+            this.agregarCursosToolStripMenuItem.Size = new System.Drawing.Size(153, 22);
+            this.agregarCursosToolStripMenuItem.Text = "Agregar cursos";
+            // 
+            // verMateriasToolStripMenuItem
+            // 
+            this.verMateriasToolStripMenuItem.Name = "verMateriasToolStripMenuItem";
+            this.verMateriasToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
+            this.verMateriasToolStripMenuItem.Text = "Ver Materias";
+            this.verMateriasToolStripMenuItem.Click += new System.EventHandler(this.verMateriasToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -108,6 +136,9 @@
         private System.Windows.Forms.ToolStripMenuItem verEstudianteToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem materiasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cursosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarMateriasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem agregarCursosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem verMateriasToolStripMenuItem;
     }
 }
 

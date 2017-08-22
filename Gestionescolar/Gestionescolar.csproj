@@ -67,6 +67,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agrematerias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agrematerias.Designer.cs">
+      <DependentUpon>Agrematerias.cs</DependentUpon>
+    </Compile>
     <Compile Include="datosgenerales.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +93,15 @@
     <Compile Include="verest.Designer.cs">
       <DependentUpon>verest.cs</DependentUpon>
     </Compile>
+    <Compile Include="vermaterias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vermaterias.Designer.cs">
+      <DependentUpon>vermaterias.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Agrematerias.resx">
+      <DependentUpon>Agrematerias.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="datosgenerales.resx">
       <DependentUpon>datosgenerales.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +119,9 @@
     </Compile>
     <EmbeddedResource Include="verest.resx">
       <DependentUpon>verest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="vermaterias.resx">
+      <DependentUpon>vermaterias.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

@@ -28,5 +28,18 @@ namespace Gestionescolar
             verest f = new verest();
             f.Show();
         }
+
+        private void agregarMateriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Agrematerias f = new Agrematerias();
+            f.Show();
+
+        }
+
+        private void verMateriasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            vermaterias f = new vermaterias();
+            f.Show();
+        }
     }
 }
