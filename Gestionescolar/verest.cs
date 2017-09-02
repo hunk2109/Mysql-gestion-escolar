@@ -23,7 +23,7 @@ namespace Gestionescolar
             MySqlConnection cnx = new MySqlConnection("Server=localhost;Database= gestionescolar;UID=root;Password=muerete66");
             try
             {
-                MySqlDataAdapter adac = new MySqlDataAdapter("select * from datosgenerales", cnx);
+                MySqlDataAdapter adac = new MySqlDataAdapter("select id as ID, nombre as Nombre, apellido as Apellido, sexo as Sexo, direccion as Direccion, edad as Fecha_de_Nacimiento  from datosgenerales", cnx);
                 DataTable tabla = new DataTable("Estudiantes");
                 adac.Fill(tabla);
                 dataGridView1.DataSource = tabla;
